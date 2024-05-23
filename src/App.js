@@ -3,12 +3,12 @@ import "./App.css";
 import Chat from "./components/Chat/Chat";
 import Detail from "./components/Detail/Detail";
 import List from "./components/List/List";
-import Login from "./components/Login/Login";
 import Notification from "./components/Notification/Notification";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./library/firebase";
 import { useUserStore } from "./library/userStore";
 import { useChatStore } from "./library/chatStore";
+import Loginn from "./components/Login/Loginn";
 
 function App() {
   const { currentUser, isLoading, fetchUserInfo } = useUserStore();
@@ -38,7 +38,8 @@ function App() {
           {detailShow && <Detail />}
         </>
       ) : (
-        <Login />
+         
+        <Loginn></Loginn>
       )}
       <Notification />
     </div>
