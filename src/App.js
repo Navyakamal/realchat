@@ -26,7 +26,7 @@ function App() {
   }, [fetchUserInfo]);
   // console.log(currentUser);
 
-  if (isLoading) return <div className="loader"></div>;
+  if (isLoading) return <div><i class="fa-duotone fa-spinner-third fa-spin-pulse"></i></div>;
 
   return (
     <div className="container">

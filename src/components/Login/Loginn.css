@@ -37,7 +37,7 @@
         font-family: "Josefin Sans", sans-serif;
       }
       button {
-        width: 60%;
+        width: 40%;
         height: 40px;
         margin: 10px auto;
         display: block;
@@ -86,7 +86,7 @@
         cursor: pointer;
       }
       input {
-        width: 90%;
+        width: 70%;
         height: 45px;
         font-size: 17px;
         background: white;
